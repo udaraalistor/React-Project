@@ -1,0 +1,107 @@
+/*!*body{*!*/
+/*!*    margin:0;*!*/
+/*!*    color:#6a6f8c;*!*/
+/*!*    background:#c8c8c8;*!*/
+/*!*    font:600 16px/18px 'Open Sans',sans-serif;*!*/
+/*!*}*!*/
+/*!**,:after,:before{box-sizing:border-box}*!*/
+/*!*.clearfix:after,.clearfix:before{content:'';display:table}*!*/
+/*!*.clearfix:after{clear:both;display:block}*!*/
+/*!*a{color:inherit;text-decoration:none}*!*/
+
+/*!*.login-wrap{*!*/
+/*!*    !*left: 50px;*!*!*/
+/*!*    !*top: 40px;*!*!*/
+/*!*    width: 100%;*!*/
+/*!*    margin: auto;*!*/
+/*!*    max-width: 90vw;*!*/
+/*!*    min-height:90vh;*!*/
+/*!*    position: relative;*!*/
+/*!*    !*background:url("images/book.jpg") no-repeat center;*!*!*/
+/*!*    background-repeat: no-repeat;*!*/
+/*!*    background-position: center center;*!*/
+/*!*    background-size: cover;*!*/
+/*!*    box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);*!*/
+/*!*    border-radius: 40px;*!*/
+/*!*}*!*/
+/*!*.login-html{*!*/
+/*!*    !*width:100vw;*!*!*/
+/*!*    height:10px;*!*/
+/*!*    !*left: 0;*!*!*/
+/*!*    margin: auto;*!*/
+/*!*    !*position: fixed;*!*!*/
+/*!*    !*padding:90px 70px 50px 70px;*!*!*/
+/*!*    background:rgba(40,57,101,.9);*!*/
+/*!*    !*background-image: linear-gradient(#edf7fa, #e3e7f1);*!*!*/
+/*!*    border-radius: 40px;*!*/
+/*!*}*!*/
+
+/*!*#con1{*!*/
+/*!*    width: 18rem;*!*/
+/*!*}*!*/
+/*!*#con2{*!*/
+/*!*    width: 18rem;*!*/
+/*!*}*!*/
+/*!*#con3{*!*/
+/*!*    width: 18rem;*!*/
+/*!*}*!*/
+
+/*.login-wrap {*/
+/*    top: 255px;*/
+/*    width: 100%;*/
+/*    margin: auto;*/
+/*    max-width: 95%;*/
+/*    min-height: 450px;*/
+/*    position: relative;*/
+/*    !* background: url(images/book.jpg) no-repeat center; *!*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center center;*/
+/*    background-size: cover;*/
+/*    box-shadow: 0 12px 15px 0 rgba(0,0,0,.24), 0 17px 50px 0 rgba(0,0,0,.19);*/
+/*    border-radius: 40px;*/
+/*}*/
+
+
+/*main content */
+
+#log4{
+    /*width:100vw;*/
+    height:10px;
+    /*left: 0;*/
+    margin: auto;
+    /*position: fixed;*/
+    /*padding:90px 70px 50px 70px;*/
+    background:rgba(40,57,101,.9);
+    /*background-image: linear-gradient(#edf7fa, #e3e7f1);*/
+    border-radius: 40px;
+}
+
+
+/*nav bar */
+
+#nav{
+    height: 100px;
+    bottom: 70px;
+    border-radius: 40px;
+    box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+/*logout button */
+
+#btnlogout{
+    /*border: red 2px solid;*/
+    border-radius: 50px ;
+    background:rgba(40,57,101,.9);
+    color: white;
+}
+
+/*image*/
+
+#img1{
+    border-radius: 50%;
+    outline: none;
+    width: 150px;
+    height: 130px;
+    /*top: 1px;*/
+    /*position: absolute;*/
+}
